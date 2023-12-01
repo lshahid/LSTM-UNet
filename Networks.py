@@ -2,10 +2,7 @@ import tensorflow as tf
 
 __author__ = 'arbellea@post.bgu.ac.il'
 
-try:
-    import tensorflow.python.keras as k
-except AttributeError:
-    import tensorflow.keras as k
+import tensorflow.keras as k
 import numpy as np
 from typing import List
 
