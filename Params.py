@@ -6,9 +6,9 @@ import Networks as Nets
 __author__ = 'arbellea@post.bgu.ac.il'
 
 
-ROOT_DATA_DIR = '~/CellTrackingChallenge/Training/'
-ROOT_TEST_DATA_DIR = '~/CellTrackingChallenge/Test/'
-ROOT_SAVE_DIR = '~/LSTM-UNet-Outputs/'
+ROOT_DATA_DIR = 'train_2D/'
+ROOT_TEST_DATA_DIR = 'test_2D/'
+ROOT_SAVE_DIR = 'output/'
 
 
 class ParamsBase(object):
